@@ -1,4 +1,3 @@
->微信公众号：**[k8s技术圈]**
 关注容器技术、关注`Kubernetes`。问题或建议，请公众号留言。
 
 ### Markdown-Weixin 简介
@@ -96,7 +95,7 @@ function showSnackbar() {
 
 
 ### 直接支持html,css
-如果你懂html和css，那下面这些效果就不在话下了：
+
 
 <a href="#jump_1">来个页内跳转</a>，跳转到文未的：`<a id="jump_1">我是页内跳转到的位置</a>` ,对应：`id="jump_1"`
 <span  style="color: #5bdaed; ">先给点颜色你看看</span>
@@ -104,14 +103,9 @@ function showSnackbar() {
 <span  style="font-size:1.3em;">试试改变字体大小</span>
 <span  style="font-size:1.3em;font-weight: bold;">改变字体大小，再来个粗体又如何？</span>
 
-<p style="text-align:center">
-试试内容居中
+<p style="text-align:center">试试内容居中</p>
 
-</p>
-
-<p style="text-align:right">
-那内容居右呢？
-</p>
+<p style="text-align:right">那内容居右呢？</p>
 
 <p style="text-align:center;color:#1e819e;font-size:1.3em;font-weight: bold;">
 来个综合的试试
