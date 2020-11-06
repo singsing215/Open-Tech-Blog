@@ -1,3 +1,4 @@
+### Markdown-Weixin 简介
 Markdown 转微信公众帐号内容神器，能让`Markdown`内容，无需作任何调整就能**一键复制**到微信公众号使用，特别针对代码展示做了优化。
 
 
@@ -137,7 +138,7 @@ function showSnackbar() {
 **更多请参考**：
 [Markdown-Weixin版本更新记录](https://github.com/cnych/markdown-weixin)
 
-![qrcode](https://blog.qikqiak.com/img/posts/qrcode_for_gh_d6dd87b6ceb4_430.jpg)
+![qrcode](https://github.com/singsing215/Open-Tech-Blog/blob/master/qrcode_for_gh_f2730434d110_344.jpg?raw=true)
 
 ***
 <a id="jump_1">我是页内跳转到的位置</a>
