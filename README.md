@@ -4,7 +4,7 @@
 
 > Github地址：github.com/singsing215/Open-Tech-Blog
 
-<table border = "0"><tr>
+<table><tr>
 <td><img src="https://github.com/singsing215/Open-Tech-Blog/blob/master/logo.PNG?raw=true" alt="logo" width=285px/></td>
 <td><img src="https://github.com/singsing215/Open-Tech-Blog/blob/master/qrcode.jpg?raw=true" alt="logo"/></td>
 </tr></table>
