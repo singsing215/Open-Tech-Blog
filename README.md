@@ -4,5 +4,5 @@
 
 > Github地址：github.com/singsing215/Open-Tech-Blog
 
-![https://github.com/singsing215/Open-Tech-Blog/blob/master/logo.PNG?raw=true](https://github.com/singsing215/Open-Tech-Blog/blob/master/logo.PNG?raw=true){:height="50%" width="50%"}
+![https://github.com/singsing215/Open-Tech-Blog/blob/master/logo.PNG?raw=true](https://github.com/singsing215/Open-Tech-Blog/blob/master/logo.PNG?raw=true){:height="400px" width="400px"}
 ![https://github.com/singsing215/Open-Tech-Blog/blob/master/qrcode.jpg?raw=true](https://github.com/singsing215/Open-Tech-Blog/blob/master/qrcode.jpg?raw=true)
