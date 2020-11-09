@@ -1,0 +1,5 @@
+<view class='container'>
+  <button bindtap="btnShow">show</button>
+  <button bindtap="btnHide">hide</button>
+</view>
+<material-loading id="loading"></material-loading>

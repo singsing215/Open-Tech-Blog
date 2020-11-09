@@ -1,5 +1,7 @@
 ### Markeditor 简介
 
+> 本公众号所有图文推文由Markeditor提供格式转换支持。
+
 Markdown 转微信公众帐号内容神器，能让 `Markdown` 内容，无需作任何调整就能**一键复制**到微信公众号使用，特别针对代码展示做了优化。
 
 下载地址：[https://www.markeditor.com/](https://www.markeditor.com/)

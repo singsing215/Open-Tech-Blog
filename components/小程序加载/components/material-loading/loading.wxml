@@ -1,0 +1,10 @@
+<view class="loading-container" catchtouchmove="true" hidden="{{!loadingState}}">
+  <view class="loading-mask" wx:if="{{maskState}}"></view>
+  <view class="loading-main">
+    <view class="loading-content">
+      <view class="ui-test-item-content">
+        <sc-loading color="pink" size="108" width="12"></sc-loading>
+      </view>
+    </view>
+  </view>
+</view>

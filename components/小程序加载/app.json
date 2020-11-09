@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "material-loading": "/components/material-loading/loading",
+    "sc-button": "/dist/components/scButton/sc-button",
+    "sc-input": "/dist/components/scInput/sc-input",
+    "sc-progress": "/dist/components/scProgress/sc-progress",
+    "sc-textarea": "/dist/components/scTextarea/sc-textarea",
+    "sc-checkbox": "/dist/components/scCheckbox/sc-checkbox",
+    "sc-checkbox-group": "/dist/components/scCheckboxGroup/sc-checkbox-group",
+    "sc-form": "/dist/components/scForm/sc-form",
+    "sc-switch": "/dist/components/scSwitch/sc-switch",
+    "sc-radio": "/dist/components/scRadio/sc-radio",
+    "sc-radio-group": "/dist/components/scRadioGroup/sc-radio-group",
+    "sc-cell": "/dist/components/scCell/sc-cell",
+    "sc-cell-group": "/dist/components/scCellGroup/sc-cell-group",
+    "sc-loading": "/dist/components/scLoading/sc-loading",
+    "sc-tab-group": "/dist/components/scTabGroup/sc-tab-group",
+    "sc-tab": "/dist/components/scTab/sc-tab",
+    "sc-dialog": "/dist/components/scDialog/sc-dialog",
+    "sc-snackbar": "/dist/components/scSnackbar/sc-snackbar",
+    "sc-date-picker": "/dist/components/scDatePicker/sc-date-picker",
+    "sc-time-picker": "/dist/components/scTimePicker/sc-time-picker"
+  }
+}

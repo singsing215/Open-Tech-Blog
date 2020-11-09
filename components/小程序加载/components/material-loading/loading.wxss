@@ -1,0 +1,13 @@
+view{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loading-container{
+  margin-top: 450rpx;
+  margin-left: 325rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
