@@ -144,7 +144,7 @@ setTimeout(function() { //1.宏任务 记为 setTimeout2
 
 ## LICENSE
 
-> 微信公众号：Open-Tech-Blog
+> 微信公众号：Open Tech Blog
 
 > Github地址：github.com/singsing215/Open-Tech-Blog
 
