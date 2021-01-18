@@ -3,7 +3,7 @@
 > 本篇简单介绍通过Vue-Element实现获取数据，数据绑定和数据查询。
 
 > 1. 通过`v-model`进行数据绑定。
-> 2. 通过`el-form` 设置`ref`和`:model`, `el-form-item`设置`prop`, 实现数据查询。
+> 2. 通过`el-form` 设置`:model`, `el-form-item`设置`prop`, 实现数据查询。
 
 ###  1. 定义queryParam和tableData
 
