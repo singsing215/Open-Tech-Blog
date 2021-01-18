@@ -8,6 +8,7 @@
 
 ![loading](https://m.qpic.cn/psc?/V537Qnpi0OXnJm2Konin077jks4Tpksf/TmEUgtj9EK6.7V8ajmQrEEr8ms4R9Xy0.4QAoFEuqFZUUqKhTAfsHe4MIIn5Y79JdxlnJEJdz4a4zR2DD01zQOt3RiZbSoi4UWNIZytgxEE!/b&bo=fAeYAXwHmAEDGTw!&rf=viewer_4)
 
+> 修改每页显示数据条数目，实时更新table和pagination。
 
 ### 1. < el-pagination >
 
@@ -108,8 +109,8 @@ export default {
 ## 参考
 
 > element 表格：https://element.eleme.io/#/zh-CN/component/table#table-column-scoped-slot
-
-> element 分页://element.eleme.io/#/zh-CN/component/pagination#slot
+> 
+> element 分页: https://element.eleme.io/#/zh-CN/component/pagination#slot
 
 ## LICENSE
 
