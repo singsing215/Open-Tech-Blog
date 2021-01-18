@@ -127,8 +127,10 @@ methods: {
 ## LICENSE
 
 > 微信公众号：Open Tech Blog
-
+> 
 > Github地址：github.com/singsing215/Open-Tech-Blog
+
+> 点击`阅读原文`获取最新本篇内容。
 
 ![qrcode](https://m.qpic.cn/psc?/V537Qnpi0OXnJm2Konin077jks4ap2ow/bqQfVz5yrrGYSXMvKr.cqZs491lneOtH7kLYV2wRHulaIh6H8AG0sOgrRV5IOzhOeBPqvFlOAcjrjqxHkjHf.PFLhGbXhv2NOlTTJqCDHuw!/b&bo=WAFYAQAAAAABByA!&rf=viewer_4)
 
