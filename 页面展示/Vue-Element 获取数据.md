@@ -29,6 +29,7 @@ data() {
   :data="tableData"
   style="width: 100%"
   ref="table"
+  row-key="id"
 >
   <!-- 数据名称 -->
   <el-table-column
@@ -54,9 +55,10 @@ data() {
 
 ```
 1. `:data="tableData"`	显示的数据。
-2. 通过 `v-slot` 可以获取到 `row`, `column`, `$index` 和 `store`（table 内部的状态管理）的数据。
-3. `v-slot="{row}"`代替`slot-scope="scope"`, 免去定义`scope`。
-4. 查询后`tableData`数据会根据的`prop`显示相应的数据。
+2. `row-key`行数据的 Key，用来优化Table的渲染 。
+3. 通过 `v-slot` 可以获取到 `row`, `column`, `$index` 和 `store`（table 内部的状态管理）的数据。
+4. `v-slot="{row}"`代替`slot-scope="scope"`, 免去定义`scope`。
+5. 查询后`tableData`数据会根据的`prop`显示相应的数据。
 
 ### 3. 查询数据 < template >
 
