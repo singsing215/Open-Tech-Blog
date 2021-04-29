@@ -1,14 +1,12 @@
 # el-table与el-form共用方案
 
-> 使用场景：在el-table单元格内使用入输入框，以及数据绑定。
+> 使用场景：在el-table单元格内使用入输入框，及其数据绑定。
 
 ###  1. 先上效果图
 
 ![button](https://m.qpic.cn/psc?/V537Qnpi0OXnJm2Konin077jks4Tpksf/TmEUgtj9EK6.7V8ajmQrEHd4bOTNDan9cuerGaOSoc3vGMCmFTua55mjxZF*rIIEU5YW.y9ckLeCgzlJnsoWSRXEZin2SP.ADXHD4lP8aqM!/b&bo=UgKrAVICqwEDGTw!&rf=viewer_4)
 
 ###  2. `el-table` + `el-form` 的数据绑定
-
-> 可以通过向 `axios(config) `传递相关配置来创建请求。
 
 ```html
 <el-form :model="form" ref="form">
@@ -103,7 +101,49 @@ async-validator: ["enumTableData.2.label is required"]
 async-validator: ["enumTableData.2.remark is required"]
 ```
 
-例如，`enumTableData.0.label`对应第一个输入框，即在`el-form-item`定义的`:prop`属性。
+六个输入框都能被相应的`prop`绑定，即，`enumTableData.0.label`对应第一个输入框。
+
+###  4. 表单行数据操作方法
+
+```html
+<el-table-column label="操作" min-width="15%">
+  <template slot-scope="scope">
+    <el-link
+      @click="moveUp(scope.$index)"
+      :underline="false"
+      icon="el-icon-sort-up"
+    ></el-link>
+    <el-link
+      @click="moveDown(scope.$index)"
+      :underline="false"
+      icon="el-icon-sort-down"
+    ></el-link>
+    <el-link
+      @click="deleteRow(scope.$index)"
+      :underline="false"
+      icon="el-icon-delete"
+    ></el-link>
+  </template>
+</el-table-column>
+```
+
+```js
+moveUp(index) {
+  if (index > 0) {
+    const item = this.form.enumTableData.splice(index, 1);
+    this.form.enumTableData.splice(index - 1, 0, item[0]);
+  }
+},
+moveDown(index) {
+  if (index < this.form.enumTableData.length - 1) {
+    const item = this.form.enumTableData.splice(index, 1);
+    this.form.enumTableData.splice(index + 1, 0, item[0]);
+  }
+},
+deleteRow(index) {
+  this.form.enumTableData.splice(index, 1);
+},
+```
 
 
 
