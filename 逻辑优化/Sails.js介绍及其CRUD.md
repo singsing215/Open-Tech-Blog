@@ -6,7 +6,7 @@
 
 > `Sails.js`是一个受`Ruby on Rails`启发的`Node.js` 模型-视图-控制器（MVC）框架。
 
-> `Sails.js`使构建定制的企业级`Node.js`应用程序变得容易。
+> `Sails.js`基于`Node.js`构建，使用`Express`来处理HTTP请求，使构建定制的企业级`Node.js`应用程序变得容易。
 
 > 今天，我们将开发基本的`CRUD`（创建，检索，更新，删除）操作。
 
