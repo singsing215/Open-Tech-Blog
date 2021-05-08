@@ -15,6 +15,14 @@
 
 ##  2. Sails `MVC` 模型
 
+![button](https://m.qpic.cn/psc?/V537Qnpi0OXnJm2Konin077jks4Tpksf/TmEUgtj9EK6.7V8ajmQrELeEKkB5sN2SDEy.QDfgXX9bhP9AcMdfS4AG7ojVXc2nJyrhIkyAwxqLYhskfzoc3kYwUX1WAUQiN7aYHBfP568!/b&bo=hALWAYQC1gEDORw!&rf=viewer_4)
+
+* 模型层`Model`：数据库、REST api等。
+
+* 视图层`View`：视觉效果、用户界面等。
+
+* 控制层`Controller`：各种视图和模型之间的中介，负责处理http请求、访问数据库、将数据填充到视图上等。
+
 ###  2.1 路由
 
 > `config\routes.js`
@@ -25,7 +33,7 @@ module.exports.routes = {
 }
 ```
 
-当用`GET`方法请求`/rent/viewAllDate`时，执行`RentController.js`里的`viewAllDate`方法。
+当用`GET`方法请求`localhost:1337/rent/viewAllDate`时，执行`RentController.js`里的`viewAllDate`方法。
 
 
 ###  2.2 控制器
@@ -113,9 +121,15 @@ module.exports.bootstrap = async function () {
 
 > Sails捆绑了一个功能强大的`ORM`引擎——`Waterline`，它提供了一个简单的数据访问层。
 
-> ORM从数据库中提取所有内容，而app代码仅与它的对象和方法进行交互，如`Model.create()`。
+> `ORM`是对象关系映射(Object Relation Mapping)，简单来说就是把关系型数据库映射成对象，完成关系型数据库的操作的技术。
 
-> 我们可以在Sails.js控制器(api\controllers\RentController.js)中开发许多动作。
+> `Waterline`从数据库中提取所有内容，通过对象和方法进行数据库的操作，如`model.create()`。
+
+> 如果不使用Sails的`ORM`引擎`Waterline`，可考虑使用`Express` + `Mongoose` (另一个ORM引擎)
+> 
+> https://www.robinwieruch.de/mongodb-express-setup-tutorial
+
+> 现在，我们可以在Sails控制器`api\controllers\RentController.js`中结合`Waterline`引擎开发许多动作。
 
 #### 3.1 自定义路由
 
